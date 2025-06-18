@@ -1,0 +1,203 @@
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3') center/cover;
+    min-height: 100vh;
+    padding-top: 76px;
+}
+
+/* Navigation */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand i {
+    margin-right: 8px;
+}
+
+/* Blog Pages */
+.blog-post {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-post h1 {
+    color: #dc3545;
+    margin-bottom: 1.5rem;
+}
+
+.blog-post .lead {
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.blog-post .h3 {
+    color: #333;
+    margin: 2rem 0 1rem;
+}
+
+.blog-post .card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog-post .card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post .card-body {
+    padding: 1.5rem;
+}
+
+.blog-post .h5 {
+    color: #dc3545;
+    margin-bottom: 1rem;
+}
+
+.blog-post .list-group-item {
+    border: none;
+    padding: 0.75rem 0;
+    color: #666;
+}
+
+.blog-post .list-group-item strong {
+    color: #333;
+}
+
+.blog-post .list-unstyled li {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.blog-post .text-success {
+    color: #28a745 !important;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Social Links */
+.social-links a {
+    font-size: 1.5rem;
+    transition: opacity 0.3s ease;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+/* Recipe Cards */
+#resultado .card {
+    margin-bottom: 1.5rem;
+}
+
+#resultado .card-img-top {
+    height: 250px;
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-radius: 15px 15px 0 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dc3545;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bb2d3b;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+    }
+    
+    .hero-section .col-lg-6 {
+        padding: 2rem;
+    }
+    
+    .card-img-top {
+        height: 180px;
+    }
+
+    .blog-post {
+        padding: 1rem;
+    }
+
+    .blog-post .card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Animations */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Section Spacing */
+section {
+    padding: 5rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+footer h5 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: #ccc;
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+    opacity: 0.8;
+} 

@@ -138,23 +138,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Authors
 
-- Your Name - Initial work
-
-## 🙏 Acknowledgments
-
-- TheMealDB for providing the recipe API
-- Bootstrap team for the amazing framework
-- All contributors who have helped improve the project
-
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the maintainers.
-
-## 🔄 Updates
-
-- Latest update: [Current Date]
-- Version: 1.0.0
-
----
-
-Made with ❤️ by [Your Name] 
+- Devri - David González

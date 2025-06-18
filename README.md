@@ -1,6 +1,8 @@
-# ChefMaster - Cooking Recipe Website
+# ChefMaster - Cooking Recipe Website 🧑🏻‍🍳
 
 ChefMaster is a modern, responsive web application that helps users discover, save, and learn about cooking recipes. The platform features a clean, user-friendly interface with a focus on accessibility and user experience.
+
+Preview: [HERE](https://davidgr11.github.io/chefmaster/)
 
 ## 🌟 Features
 
